@@ -1,5 +1,5 @@
 "use client";
-import "~/styles/globals.css";
+import "../styles/globals.css";
 import { useState, useEffect } from "react";
 import { Key, Terminal, Code2, Play } from "lucide-react";
 
@@ -115,7 +115,7 @@ export default function HomePage() {
               type="text"
               value={apiKey}
               onChange={(e) => setApiKey(e.target.value)}
-              placeholder="Naka-auto fill kapag galing sa key generator dashboard..."
+              placeholder="Please fill"
               className="w-full bg-[#05050f] border border-zinc-800 rounded-lg p-3.5 font-mono text-sm text-cyan-400 placeholder-zinc-600 focus:outline-none focus:border-cyan-500/50 focus:shadow-[0_0_15px_rgba(6,182,212,0.1)] transition duration-200"
             />
             <p className="text-[11px] text-zinc-500">
